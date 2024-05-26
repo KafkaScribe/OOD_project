@@ -1,4 +1,4 @@
-package com.fullstackbackend.model;
+package com.CineMo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import javax.persistence.Id;
 
 /* Created by Arjun Gautam */
 @Entity
-public class User {
+public class Movie {
 
     @Id
     @GeneratedValue

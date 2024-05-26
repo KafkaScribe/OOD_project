@@ -1,4 +1,4 @@
-package com.fullstackbackend.exception;
+package com.CineMo.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -10,13 +10,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 @ControllerAdvice
-public class UserNotFoundAdvice {
+public class MovieNotFoundAdvice {
 
 
     @ResponseBody
-    @ExceptionHandler(UserNotFoundException.class)
+    @ExceptionHandler(MovieNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public Map<String,String> exceptionHandler(UserNotFoundException exception){
+    public Map<String,String> exceptionHandler(MovieNotFoundException exception){
 
         Map<String,String> errorMap=new HashMap<>();
         errorMap.put("errorMessage",exception.getMessage());
