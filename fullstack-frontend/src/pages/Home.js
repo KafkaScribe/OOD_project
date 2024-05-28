@@ -50,10 +50,10 @@ export default function Home() {
               <td>{user.username}</td>
               <td>{user.email}</td>
               <td>
-                <Link className="btn btn-primary btn-sm mx-1" to={`/viewuser/${user.id}`}>
+                <Link className="btn btn-primary btn-sm mx-1" to={`/viewmovie/${user.id}`}>
                   View
                 </Link>
-                <Link className="btn btn-outline-primary btn-sm mx-1" to={`/edituser/${user.id}`}>
+                <Link className="btn btn-outline-primary btn-sm mx-1" to={`/editmovie/${user.id}`}>
                   Edit
                 </Link>
                 <button

@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
             {/* Add more nav items here if needed */}
           </ul>
-          <Link className="btn btn-outline-light" to="/adduser">
+          <Link className="btn btn-outline-light" to="/addmovie">
             Add Movie
           </Link>
         </div>
